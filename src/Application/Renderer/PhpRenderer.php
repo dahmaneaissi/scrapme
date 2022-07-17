@@ -30,5 +30,4 @@ class PhpRenderer implements RendererInterface
     {
         $this->renderer->setLayout($layout);
     }
-
 }
