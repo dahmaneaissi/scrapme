@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-        <?php echo isset($title) ?: '' ?>
+        <?php echo $title ?? '' ?>
     </title>
 
     <link href="//cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -31,7 +31,7 @@
         </header>
 
         <main>
-                <?php echo isset($content) ?: '' ?>
+                <?php echo $content ?? '' ?>
         </main>
 
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
